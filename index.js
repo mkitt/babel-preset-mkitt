@@ -1,18 +1,11 @@
-/* eslint-disable global-require */
+const isDevelopment = process.env.NODE_ENV === 'development'
+const isProduction = process.env.NODE_ENV === 'production'
+
 module.exports = {
   presets: [
     require('babel-preset-flow')
   ],
-  env: {
-    production: {
-      plugins: [
-        [require('babel-plugin-emotion'), { hoist: true }]
-      ]
-    },
-    development: {
-      plugins: [
-        [require('babel-plugin-emotion'), { autoLabel: true, sourceMap: true }]
-      ]
-    }
-  }
+  plugins: [
+    [require('babel-plugin-emotion'), { hoist: isProduction, autoLabel: isDevelopment, sourceMap: isDevelopment }]
+  ]
 }

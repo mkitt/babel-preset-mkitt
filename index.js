@@ -6,6 +6,10 @@ module.exports = {
     require('babel-preset-flow')
   ],
   plugins: [
-    [require('babel-plugin-emotion'), { hoist: isProduction, autoLabel: isDevelopment, sourceMap: isDevelopment }]
+    [require('babel-plugin-emotion'), {
+      autoLabel: isDevelopment,
+      hoist: isProduction,
+      sourceMap: isDevelopment,
+    }]
   ]
 }

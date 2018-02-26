@@ -1,7 +1,7 @@
 # Babel presets, plugins and environment configurations
 
-Presets: `flow`
-Plugins: `emotion`
+1. Presets: `flow`
+2. Plugins: `emotion`
 
 ```
 yarn add babel-preset-mkitt -DE

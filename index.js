@@ -1,20 +1,18 @@
-import emotionPlugin from 'babel-plugin-emotion'
-import flowPreset from 'babel-preset-flow'
-
-export default () => ({
-  presets: [flowPreset],
+/* eslint-disable global-require */
+module.exports = {
+  presets: [
+    require('babel-preset-flow'),
+  ],
   env: {
     production: {
       plugins: [
-        // ramdaPlugin,
-        [emotionPlugin, { hoist: true }],
+        [require('babel-plugin-emotion'), { hoist: true }],
       ],
     },
     development: {
       plugins: [
-        // ramdaPlugin,
-        [emotionPlugin, { autoLabel: true, sourceMap: true }],
+        [require('babel-plugin-emotion'), { autoLabel: true, sourceMap: true }],
       ],
     },
   },
-})
+}

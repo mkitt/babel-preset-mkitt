@@ -1,4 +1,4 @@
-<img src="/apple-touch-icon.png" width="96px" height="96px" />
+<img src="https://mkitt.net/apple-touch-icon.png" width="96px" height="96px" />
 
 # Babel presets, plugins and environment configurations
 

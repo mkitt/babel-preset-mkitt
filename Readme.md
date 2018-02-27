@@ -19,8 +19,7 @@ Add to package.json:
 }
 ```
 
-[mkitt.net][mkitt.net] | [github.com/mkitt][github] | [hello@mkitt.net][email]  
+[mkitt.net][mkitt.net] | [github.com/mkitt][github]
 
-[email]: mailto:hello@mkitt.net "hello@"
 [github]: https://github.com/mkitt "github.com/mkitt"
 [mkitt.net]: https://mkitt.net "mkitt.net"

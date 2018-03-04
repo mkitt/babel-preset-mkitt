@@ -1,4 +1,4 @@
-<img src="https://mkitt.net/apple-touch-icon.png" width="96px" height="96px" />
+<img src="https://mkitt.net/apple-touch-icon.png" width="80px" height="80px" />
 
 # Babel presets, plugins and environment configurations
 
@@ -19,7 +19,7 @@ Add to package.json:
 }
 ```
 
-[mkitt.net][mkitt.net] | [github.com/mkitt][github]
+[mkitt.net][mkitt.net] | [github/mkitt][github]
 
-[github]: https://github.com/mkitt "github.com/mkitt"
-[mkitt.net]: https://mkitt.net "mkitt.net"
+[github]: https://github.com/mkitt "@mkitt"
+[mkitt.net]: https://mkitt.net "🏔"

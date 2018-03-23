@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "babel-plugin-emotion": "9.0.1",
+    "babel-plugin-ramda": "1.5.0",
+    "babel-preset-env": "1.6.1",
     "babel-preset-flow": "6.23.0"
   }
 }

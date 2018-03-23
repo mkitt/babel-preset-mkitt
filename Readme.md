@@ -3,7 +3,7 @@
 # Babel presets, plugins and environment configurations
 
 1. Presets: `env, flow`
-2. Plugins: `emotion, ramda`
+2. Plugins: `emotion`
 
 ```sh
 yarn add babel-preset-mkitt -DE

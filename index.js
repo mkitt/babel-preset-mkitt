@@ -11,9 +11,6 @@ module.exports = {
       autoLabel: isDevelopment,
       hoist: isProduction,
       sourceMap: isDevelopment
-    }],
-    [require('babel-plugin-ramda'), {
-      useES: true
     }]
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-mkitt",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Matthew Kitt <mk@mkitt.net>",
   "description": "Babel presets, plugins and environment configurations",
   "main": "index.js",
